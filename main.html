@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="kafka/kafka.jpg" type="image/x-icon">
+    <title>Kafka</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="kafka/kafka.jpg">
+            <h1>KAFKA</h1>
+        </header>
+        <div class="content">
+            <h2> About Kafka </h2>
+            <p id="about">A member of the Stellaron Hunters who is calm, collected, and beautiful. Her record on the
+                wanted list of
+                the Interastral Peace Corporation only lists her name and her hobby.</p>
+            <div class="button_click">
+               <!--- <p id="click" onclick="MyFunction1()">-</p> ---> 
+                <i id="click" onclick="MyFunction1()" class="fa-solid fa-caret-down"></i>
+            </div>
+            <video id="videosrc" src="kafka/Kafka-video.mp4" controls></video>
+            <div class="button_click_2">
+                <p id="button" onclick="MyFunction2()">-</p>
+            </div>
+            <h2>Kafka Characteristic</h2>
+            <ol>
+                <li>Deals Lightning DMG equal to 80%–176% </li>
+                <li> Kafka immediately launches 1 follow-up
+                    attack and deals Lightning DMG.</li>
+                <li>Hmmediately attacks all enemies within a set range.</li>
+            </ol>
+            <img class="big-image" src="kafka/friends.jpg">
+            <p class="cap3on">Stellaron Hunter's</p>
+            <h2>Kafka's Friends</h2>
+            <!---
+                <ul>
+                <li><a href="https://honkai-star-rail.fandom.com/wiki/Dan_Heng" target="_blank"
+                        3tle="Visit Vanellope's page">Dan Heng </a> from Honkai Star Rail</li>
+
+                <li><a href="https://honkai-star-rail.fandom.com/wiki/March_7th" target="_blank"
+                        3tle="Visit Finn's page">Match 7th</a>
+                    from Honkai Star Rail</li>
+                <li><a href="https://honkai-star-rail.fandom.com/wiki/Himekoe" target="_blank"
+                        3tle="Visit Jake's page">Himeko</a>
+                    from Honkai Star Rail </li>
+            </ul>
+                --->
+            <div class="card">
+                <div class="picture picture1"><a href="https://re-eze.github.io/Project-Archon/?fbclid=IwAR3adXJnCDWSA0euvpui5iViSVRhtcgguP4nS84dZJV4ULElV_7LuRr6uoM" target="_blank"><img src="https://re-eze.github.io/Project-Archon/pictures/icon.jpg" alt=""><p>Zhongli</p></a></div>
+                <div class="picture picture2"><a href="https://ekimasen.github.io/Mike-ITWS/?fbclid=IwAR3l9TE3UqjjBuGSCINdwXUa-RHuYYwJKsT3YTKFhc3j4AurFIWaKzByq3M" target="_blank"><img src="https://ekimasen.github.io/Mike-ITWS/1.jpg" alt=""><p>Raiden</p></a></div>
+                <div class="picture picture3"><a href="main.html" target="_blank"><img src="kafka/kafka.jpg" alt=""><p>Chigiri</p></a></div>
+            </div>
+
+            <div class="button_click">
+                 <i id="click2" onclick="MyFunction3()" class="fa-solid fa-caret-down"></i>
+             </div>
+
+            <div class="card" id="card">
+                <div class="picture"><a href="main.html" target="_blank"><img src="kafka/kafka.jpg" alt=""><p>Kafka</p></a></div>
+                <div class="picture"><a href="main.html" target="_blank"><img src="kafka/kafka.jpg" alt=""><p>Kafka</p></a></div>
+                <div class="picture"><a href="main.html" target="_blank"><img src="kafka/kafka.jpg" alt=""><p>Kafka</p></a></div>
+            </div>      
+    
+        </div>
+
+
+        <footer>
+            <ul>
+                <li>Made by<a href="hTp://119.93.173.77:81/oes/" target="_blank"></a>
+                    <a href="https://github.com/Mxrxxss" target="_blank">Mxrxxss</a>
+                </li><li>&copy; 2023</li>
+            </ul>
+        </footer>
+    </div>
+
+
+    <script>
+
+        function MyFunction1() {
+            document.getElementById("videosrc").style.display = "flex";
+            document.getElementById("click").style.display = "none";
+            document.getElementById("button").style.display = "flex";
+            document.getElementById("about").style.display = "none";
+
+        }
+
+        function MyFunction2() {
+            document.getElementById("videosrc").style.display = "none";
+            document.getElementById("click").style.display = "flex";
+            document.getElementById("button").style.display = "none";
+            document.getElementById("about").style.display = "flex";
+        }
+
+        function MyFunction3() {
+            document.getElementById("card").style.display = "flex";
+            document.getElementById("click2").style.display = "none";
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
