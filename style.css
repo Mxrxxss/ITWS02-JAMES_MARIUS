@@ -155,6 +155,10 @@ ul li {
     border:3px solid #6e4a8a;
 }
 
+.picture3 img {
+    border: 3px solid #415c79;
+}
+
 .picture {
     padding: 20px 9px 40px 9px;
     border: 2.5px solid#292945;
