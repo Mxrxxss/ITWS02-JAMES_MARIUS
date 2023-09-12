@@ -97,7 +97,7 @@ img.big-image {
 
 p {
     line-height: 1.6;
-    font-size: 20.5px;
+    font-size: 22px;
     /*color:#fff2fb;*/
     color: #b9bac5;
     display: flex;
@@ -111,7 +111,7 @@ p.cap3on {
 
 ol {
     list-style-type: circle;
-    font-size: 20.5px;
+    font-size: 21.5px;
     color: #b9bac5;
     font-family: 'Kanit', sans-serif;
 
