@@ -1,4 +1,21 @@
- @import url('https://fonts.cdnfonts.com/css/d-din');
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(18, 18, 28);
+    border-radius: 4px;
+    background: #292945;
+}
+
+::-webkit-scrollbar-thumb {
+   box-shadow: inset 0 0 10px rgb(18, 18, 28);
+    background: #292945;
+    border-radius: 4px;
+}
+
 html,
 body {
     font-family: Arial, sans-serif;
@@ -18,15 +35,25 @@ header {
     background-position: center center;
     background-size: cover;
     /*background-color: #1c1b2d;
-    /*background-color:#261222; 2nd old bg
-    /*background-color: #abcee4; old bg*/
+   /*background-color:#261222; 2nd old bg
+   /*background-color: #abcee4; old bg*/
+}
+
+header:hover {
+    background: url(kafka/kafka3.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /*box-shadow: 4px 6px 17px 10px rgb(18, 18, 28);
+    transition: 0.2s;*/
 }
 
 h1 {
     font-size: 80px;
     /*color: #d1cbe3;*/
     color: #b0b2be;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', serif;
+    cursor:text;
 }
 
 header img {
@@ -44,7 +71,7 @@ header img {
     padding: 0 30px 30px 30px;
     color: #c7a9c5;
     /*color: #8e708d;
-    /*background-color:#1c1b2d;*/
+   /*background-color:#1c1b2d;*/
     background: linear-gradient(50deg, rgb(28, 27, 45), rgb(44, 42, 66));
     border: 2px solid #d990e8;
     border-radius: 38px;
@@ -57,8 +84,8 @@ h2 {
     font-size: 34px;
     font-family: 'EB Garamond', serif;
     /*ont-family: 'Kanit', sans-serif;*/
-    
-  
+
+
 }
 
 img.big-image {
@@ -119,15 +146,15 @@ ol {
 
 /*
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-family: 'Kanit', sans-serif;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   font-family: 'Kanit', sans-serif;
 }
 
 ul li {
-    list-style-type: square;
-    color: #b9bac5;
+   list-style-type: square;
+   color: #b9bac5;
 
 }
 */
@@ -145,18 +172,22 @@ ul li {
     border: 3px solid #d990e8;
     width: 200px;
     border-radius: 50%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
 
+
 .picture1 img {
-    border:3px solid #f9eab6;
+    border: 3px solid #f9eab6;
 }
 
 .picture2 img {
-    border:3px solid #6e4a8a;
+    border: 3px solid #6e4a8a;
 }
 
 .picture3 img {
-    border: 3px solid #415c79;
+   border: 3px solid #415c79;
 }
 
 .picture {
@@ -164,12 +195,49 @@ ul li {
     border: 2.5px solid#292945;
     border-radius: 10px;
     box-shadow: 4px 6px 17px 10px rgb(18, 18, 28);
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
 
 .picture p {
     display: flex;
     justify-content: center;
     font-size: 30px;
+    text-transform: uppercase;
+}
+
+.picture:hover {
+   top: -10px;
+}
+
+.picture1:hover {
+    border: 2.5px solid #f9eab6;
+}
+
+.picture2:hover {
+    border: 2.5px solid#6e4a8a;
+}
+
+.picture3:hover {
+    border: 2.5px solid#415c79;
+}
+
+.picture img:hover {
+    box-shadow: 4px 6px 20px 5px rgb(18, 18, 28);
+    top: -10px;
+}
+
+.picture1 p:hover {
+    color: #f9eab6;
+}
+
+.picture2 p:hover {
+    color: #6e4a8a;
+}
+
+.picture3 p:hover {
+   color: #415c79;
 }
 
 #card {
@@ -182,7 +250,7 @@ ul li {
 }
 
 footer a {
-    color:  #c7a9c5;
+    color: #c7a9c5;
     /*color: #d1cbe3;*/
     text-decoration: none;
     font-size: 20px;
