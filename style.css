@@ -187,7 +187,7 @@ ul li {
 }
 
 .picture3 img {
-   border: 3px solid #415c79;
+   border: 3px solid #442729;
 }
 
 .picture {
@@ -220,7 +220,7 @@ ul li {
 }
 
 .picture3:hover {
-    border: 2.5px solid#415c79;
+    border: 2.5px solid#442729;
 }
 
 .picture img:hover {
@@ -237,7 +237,7 @@ ul li {
 }
 
 .picture3 p:hover {
-   color: #415c79;
+   color: #442729;
 }
 
 #card {
