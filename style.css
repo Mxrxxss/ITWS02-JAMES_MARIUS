@@ -66,15 +66,14 @@ header img {
     background: linear-gradient(50deg, rgb(28, 27, 45), rgb(44, 42, 66));
     border: 2px solid #d990e8;
     border-radius: 38px;
-
+    font-weight: lighter;
     font-family: 'Kanit', sans-serif;
     /*font-family: 'EB Garamond', serif;*/
 }
 
 h2 {
     font-size: 34px;
-    font-family: 'EB Garamond', serif;
-    /*ont-family: 'Kanit', sans-serif;*/
+    font-family: 'Kanit', sans-serif;
 
 
 }
@@ -115,7 +114,7 @@ img.big-image {
 
 p {
     line-height: 1.6;
-    font-size: 22px;
+    font-size: 21px;
     /*color:#fff2fb;*/
     color: #b9bac5;
     display: flex;
