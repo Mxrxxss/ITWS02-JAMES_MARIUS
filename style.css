@@ -44,7 +44,7 @@ h1 {
     /*color: #d1cbe3;*/
     color: #b0b2be;
     font-family: 'Times New Roman', serif;
-    cursor:text;
+    text-shadow:  -1px 7px 5px rgb(18, 18, 28);
 }
 
 header img {
