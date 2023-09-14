@@ -39,15 +39,6 @@ header {
    /*background-color: #abcee4; old bg*/
 }
 
-header:hover {
-    background: url(kafka/kafka3.gif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    /*box-shadow: 4px 6px 17px 10px rgb(18, 18, 28);
-    transition: 0.2s;*/
-}
-
 h1 {
     font-size: 80px;
     /*color: #d1cbe3;*/
