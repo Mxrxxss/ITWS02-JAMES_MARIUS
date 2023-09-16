@@ -72,10 +72,10 @@ header img {
 }
 
 h2 {
+    color:#b0b2be;
     font-size: 34px;
     font-family: 'Kanit', sans-serif;
-
-
+    text-shadow:  -1px 2.5px 5px rgb(18, 18, 28);    
 }
 
 img.big-image {
@@ -114,7 +114,7 @@ img.big-image {
 
 p {
     line-height: 1.6;
-    font-size: 21px;
+    font-size: 22px;
     /*color:#fff2fb;*/
     color: #b9bac5;
     display: flex;
